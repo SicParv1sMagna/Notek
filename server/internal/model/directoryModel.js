@@ -3,6 +3,11 @@ const sequelize = require("../../database/postgresql");
 const User = require("./userModel");
 
 const Directory = sequelize.define('Directory', {
+    id: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
+    },
     owner: {
         type: DataTypes.INTEGER,
         allowNull: false,
