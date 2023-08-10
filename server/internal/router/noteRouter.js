@@ -12,3 +12,5 @@ router.get('/directory/note/:id', controller.getNoteById);
 router.put('/directory/note/:id', controller.editNote);
 
 router.delete('/directory/note/:id', controller.deleteNote);
+
+module.exports = router;

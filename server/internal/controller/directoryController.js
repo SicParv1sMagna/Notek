@@ -1,21 +1,21 @@
 const Directory = require('../model/directoryModel');
 
-module.exports = function createDirectory(req, res) {
+module.exports.createDirectory = function (req, res) {
 
 };
 
-module.exports = function editDirectory(req, res) {
+module.exports.editDirectory = function (req, res) {
 
 };
 
-module.exports = function getDirectory(req, res) {
+module.exports.getDirectory = function (req, res) {
 
 };
 
-module.exports = function getDirectoryById(req, res) {
+module.exports.getDirectoryById = function (req, res) {
 
 }
 
-module.exports = function deleteDirectory(req, res) {
-    
+module.exports.deleteDirectory = function (req, res) {
+
 }
