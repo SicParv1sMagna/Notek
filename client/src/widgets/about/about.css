@@ -1,0 +1,18 @@
+.AboutContainer {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 50%;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutContainer img {
+    width: 90px;
+}
+
+.AboutContainer img:hover {
+    transition: 0.1s;
+    scale: 1.1;
+}

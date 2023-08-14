@@ -3,9 +3,6 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color: rgba(255, 255, 255, 0.87);
-  background-color: var(--color-light-primary);
-
   --color-light-primary: white;
   --color-light-secondaty: rgb(0, 0, 0);
 
@@ -33,6 +30,11 @@
   --color-red-700: #b63b50;
   --color-red-800: #a1263c;
   --color-red-900: #7e0419;
+
+  color: var(--color-dark-secondary);
+  background-color: var(--color-dark-primary);
+
+  /* overflow: hidden; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

@@ -1,0 +1,7 @@
+const validateEmail = () => {
+
+};
+
+const validatePassword = () => {
+
+};
