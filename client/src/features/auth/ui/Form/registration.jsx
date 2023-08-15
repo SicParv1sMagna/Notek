@@ -1,4 +1,6 @@
 import React from "react";
+import { validateEmail, validatePassword } from "../../lib/validation";
+import { registration } from "../../lib/api";
 
 const Registration = () => {
     const handleSubmitForm = (e) => {
@@ -9,6 +11,15 @@ const Registration = () => {
         const email = document.getElementById("email").value;
         const password = document.getElementById("password").value;
         const rpassword = document.getElementById("rpassword").value;
+
+        if (validateEmail(email) && validatePassword(password, rpassword)) {
+            registration(
+                firstName,
+                secondName,
+                email,
+                password,
+            );
+        }
     }
 
     return (

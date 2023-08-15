@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.AboutContainer p {
+    text-align: justify;
+}
+
 .AboutContainer img {
     width: 90px;
 }

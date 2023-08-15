@@ -1,4 +1,5 @@
 import React from "react";
+import { login } from "../../lib/api";
 
 const Login = () => {
 
@@ -7,6 +8,8 @@ const Login = () => {
 
         const email = document.getElementById("email").value;
         const password = document.getElementById("password").value;
+
+        login(email, password);
     }
 
     return (
